@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table caption{
+            caption-side: bottom;
+        }
+        table{
+            color: blue;
+            border: 1px solid #ccc;
+        }
+
+        table td, table th{
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: left;
+        }
+        table .yellow{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <table width="20%" border="1" cellspacing="1" cellpadding="3" align="center">
+        <caption>Tabela 1:Estatísticas</caption>
+        <tr>
+            <td rowspan="2" colspan="3"></td>
+            <th colspan="3" align="center" class="yellow">Demografia</th>
+        </tr>
+        <tr class="yellow">
+            <th>Homens</th>
+            <th>Meninas</th>
+            <th>Professor</th>
+        </tr>
+        <tr class="yellow" align="center">
+            <th colspan="2", rowspan="4">Turmas</th>
+            <th>A</th>
+            <td>20</td>
+            <td>5</td>
+            <td>João Pedro</td>
+        </tr>
+        <tr class="yellow" align="center">
+            <th>B</th>
+            <td>21</td>
+            <td>3</td>
+            <td>idem</td>
+        </tr>
+        <tr class="yellow" align="center">
+            <th>C</th>
+            <td>25</td>
+            <td>2</td>
+            <td>Maria João</td>
+        </tr>
+        <tr class="yellow" align="center">
+            <th>D</th>
+            <td>20</td>
+            <td>4</td>
+            <td>idem</td>
+        </tr>
+        <tr class="yellow" align="center">
+            <th colspan="3">Total</th>
+            <td>86</td>
+            <td>4</td>
+            <td>2</td>
+        </tr>
+    </table>
+</body>
+</html>
